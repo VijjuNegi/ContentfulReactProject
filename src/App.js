@@ -1,10 +1,12 @@
-import Slider from "../src/components/slider/Slider";
+import Slider from "./components/slider/Slider";
+import AboutUs from "./components/About/AboutUs";
 
 function App() {
   return (
     <div className="App">
       <h2>Contentful</h2>
       <Slider />
+      <AboutUs />
     </div>
   );
 }
